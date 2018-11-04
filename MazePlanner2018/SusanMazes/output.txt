@@ -1,0 +1,713 @@
+/Users/susan/anaconda/envs/anacondaPython3/bin/python /Users/susan/PycharmProjects/MazeSolverCurrent2016/MazePlanner2016/MazePlanner.py
+----------------------
+Current state: [5, 3]  [] 0
+    Neighbor never seen before: [4, 3]  ['N'] 1
+    Neighbor never seen before: [5, 4]  ['E'] 2
+    Neighbor never seen before: [6, 3]  ['S'] 3
+    Neighbor never seen before: [5, 2]  ['W'] 17
+walkdown index: 0
+----------------------
+Current state: [4, 3]  ['N'] 1
+    Neighbor never seen before: [3, 3]  ['N', 'N'] 2
+    Neighbor never seen before: [4, 4]  ['N', 'E'] 2
+    Neighbor was already in explored, skipping [5, 3]  ['N', 'S'] 2 0 2
+    Neighbor never seen before: [4, 2]  ['N', 'W'] 2
+walkdown index: 0
+walkdown index: 1
+----------------------
+Current state: [5, 4]  ['E'] 2
+    Neighbor was already in fringe, skipping [4, 4]  ['E', 'N'] 3 2 3
+    Neighbor never seen before: [5, 5]  ['E', 'E'] 3
+    Neighbor never seen before: [6, 4]  ['E', 'S'] 6
+    Neighbor was already in explored, skipping [5, 3]  ['E', 'W'] 3 0 3
+walkdown index: 0
+walkdown index: 1
+----------------------
+Current state: [3, 3]  ['N', 'N'] 2
+    Neighbor never seen before: [2, 3]  ['N', 'N', 'N'] 27
+    Neighbor never seen before: [3, 4]  ['N', 'N', 'E'] 5
+    Neighbor was already in explored, skipping [4, 3]  ['N', 'N', 'S'] 3 1 3
+    Neighbor never seen before: [3, 2]  ['N', 'N', 'W'] 3
+walkdown index: 0
+walkdown index: 2
+----------------------
+Current state: [4, 4]  ['N', 'E'] 2
+    Neighbor was already in fringe, skipping [3, 4]  ['N', 'E', 'N'] 5 5 5
+    Neighbor never seen before: [4, 5]  ['N', 'E', 'E'] 3
+    Neighbor was already in explored, skipping [5, 4]  ['N', 'E', 'S'] 4 2 4
+    Neighbor was already in explored, skipping [4, 3]  ['N', 'E', 'W'] 3 1 3
+walkdown index: 0
+----------------------
+Current state: [4, 2]  ['N', 'W'] 2
+    Neighbor was already in fringe, skipping [3, 2]  ['N', 'W', 'N'] 3 3 3
+    Neighbor was already in explored, skipping [4, 3]  ['N', 'W', 'E'] 3 1 3
+    Neighbor was already in fringe, skipping [5, 2]  ['N', 'W', 'S'] 19 17 19
+    Neighbor never seen before: [4, 1]  ['N', 'W', 'W'] 30
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+----------------------
+Current state: [4, 5]  ['N', 'E', 'E'] 3
+    Neighbor never seen before: [3, 5]  ['N', 'E', 'E', 'N'] 4
+    Neighbor never seen before: [4, 6]  ['N', 'E', 'E', 'E'] 11
+    Neighbor was already in fringe, skipping [5, 5]  ['N', 'E', 'E', 'S'] 4 3 4
+    Neighbor was already in explored, skipping [4, 4]  ['N', 'E', 'E', 'W'] 4 2 4
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+----------------------
+Current state: [6, 3]  ['S'] 3
+    Neighbor was already in explored, skipping [5, 3]  ['S', 'N'] 4 0 4
+    Neighbor was already in fringe, skipping [6, 4]  ['S', 'E'] 7 6 7
+    Neighbor never seen before: [7, 3]  ['S', 'S'] 18
+    Neighbor never seen before: [6, 2]  ['S', 'W'] 4
+walkdown index: 0
+walkdown index: 2
+----------------------
+Current state: [3, 2]  ['N', 'N', 'W'] 3
+    Neighbor never seen before: [2, 2]  ['N', 'N', 'W', 'N'] 12
+    Neighbor was already in explored, skipping [3, 3]  ['N', 'N', 'W', 'E'] 4 2 4
+    Neighbor was already in explored, skipping [4, 2]  ['N', 'N', 'W', 'S'] 4 2 4
+    Neighbor never seen before: [3, 1]  ['N', 'N', 'W', 'W'] 23
+walkdown index: 0
+walkdown index: 1
+walkdown index: 4
+----------------------
+Current state: [5, 5]  ['E', 'E'] 3
+    Neighbor was already in explored, skipping [4, 5]  ['E', 'E', 'N'] 4 3 4
+    Neighbor never seen before: [5, 6]  ['E', 'E', 'E'] 4
+    Neighbor never seen before: [6, 5]  ['E', 'E', 'S'] 4
+    Neighbor was already in explored, skipping [5, 4]  ['E', 'E', 'W'] 5 2 5
+walkdown index: 0
+walkdown index: 1
+----------------------
+Current state: [3, 5]  ['N', 'E', 'E', 'N'] 4
+    Neighbor never seen before: [2, 5]  ['N', 'E', 'E', 'N', 'N'] 22
+    Neighbor never seen before: [3, 6]  ['N', 'E', 'E', 'N', 'E'] 5
+    Neighbor was already in explored, skipping [4, 5]  ['N', 'E', 'E', 'N', 'S'] 5 3 5
+    Neighbor was already in fringe, skipping [3, 4]  ['N', 'E', 'E', 'N', 'W'] 7 5 7
+walkdown index: 0
+walkdown index: 2
+walkdown index: 5
+----------------------
+Current state: [6, 2]  ['S', 'W'] 4
+    Neighbor was already in fringe, skipping [5, 2]  ['S', 'W', 'N'] 21 17 21
+    Neighbor was already in explored, skipping [6, 3]  ['S', 'W', 'E'] 7 3 7
+    Neighbor never seen before: [7, 2]  ['S', 'W', 'S'] 20
+    Neighbor never seen before: [6, 1]  ['S', 'W', 'W'] 24
+walkdown index: 0
+walkdown index: 2
+walkdown index: 6
+----------------------
+Current state: [5, 6]  ['E', 'E', 'E'] 4
+    Neighbor was already in fringe, skipping [4, 6]  ['E', 'E', 'E', 'N'] 12 11 12
+    Neighbor never seen before: [5, 7]  ['E', 'E', 'E', 'E'] 5
+    Neighbor never seen before: [6, 6]  ['E', 'E', 'E', 'S'] 5
+    Neighbor was already in explored, skipping [5, 5]  ['E', 'E', 'E', 'W'] 5 3 5
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+----------------------
+Current state: [6, 5]  ['E', 'E', 'S'] 4
+    Neighbor was already in explored, skipping [5, 5]  ['E', 'E', 'S', 'N'] 5 3 5
+    Neighbor was already in fringe, skipping [6, 6]  ['E', 'E', 'S', 'E'] 5 5 5
+    Neighbor never seen before: [7, 5]  ['E', 'E', 'S', 'S'] 6
+    Neighbor was already in fringe, skipping [6, 4]  ['E', 'E', 'S', 'W'] 8 6 8
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+----------------------
+Current state: [3, 4]  ['N', 'N', 'E'] 5
+    Neighbor never seen before: [2, 4]  ['N', 'N', 'E', 'N'] 31
+    Neighbor was already in explored, skipping [3, 5]  ['N', 'N', 'E', 'E'] 6 4 6
+    Neighbor was already in explored, skipping [4, 4]  ['N', 'N', 'E', 'S'] 6 2 6
+    Neighbor was already in explored, skipping [3, 3]  ['N', 'N', 'E', 'W'] 6 2 6
+walkdown index: 0
+walkdown index: 2
+walkdown index: 6
+----------------------
+Current state: [6, 6]  ['E', 'E', 'E', 'S'] 5
+    Neighbor was already in explored, skipping [5, 6]  ['E', 'E', 'E', 'S', 'N'] 6 4 6
+    Neighbor never seen before: [6, 7]  ['E', 'E', 'E', 'S', 'E'] 6
+    Neighbor never seen before: [7, 6]  ['E', 'E', 'E', 'S', 'S'] 6
+    Neighbor was already in explored, skipping [6, 5]  ['E', 'E', 'E', 'S', 'W'] 6 4 6
+walkdown index: 0
+walkdown index: 2
+walkdown index: 5
+----------------------
+Current state: [3, 6]  ['N', 'E', 'E', 'N', 'E'] 5
+    Neighbor never seen before: [2, 6]  ['N', 'E', 'E', 'N', 'E', 'N'] 13
+    Neighbor never seen before: [3, 7]  ['N', 'E', 'E', 'N', 'E', 'E'] 18
+    Neighbor was already in fringe, skipping [4, 6]  ['N', 'E', 'E', 'N', 'E', 'S'] 13 11 13
+    Neighbor was already in explored, skipping [3, 5]  ['N', 'E', 'E', 'N', 'E', 'W'] 6 4 6
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+walkdown index: 7
+----------------------
+Current state: [5, 7]  ['E', 'E', 'E', 'E'] 5
+    Neighbor never seen before: [4, 7]  ['E', 'E', 'E', 'E', 'N'] 17
+    Neighbor never seen before: [5, 8]  ['E', 'E', 'E', 'E', 'E'] 13
+    Neighbor was already in fringe, skipping [6, 7]  ['E', 'E', 'E', 'E', 'S'] 6 6 6
+    Neighbor was already in explored, skipping [5, 6]  ['E', 'E', 'E', 'E', 'W'] 6 4 6
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+walkdown index: 7
+----------------------
+Current state: [7, 5]  ['E', 'E', 'S', 'S'] 6
+    Neighbor was already in explored, skipping [6, 5]  ['E', 'E', 'S', 'S', 'N'] 7 4 7
+    Neighbor was already in fringe, skipping [7, 6]  ['E', 'E', 'S', 'S', 'E'] 7 6 7
+    Neighbor never seen before: [8, 5]  ['E', 'E', 'S', 'S', 'S'] 7
+    Neighbor never seen before: [7, 4]  ['E', 'E', 'S', 'S', 'W'] 12
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+walkdown index: 8
+----------------------
+Current state: [6, 7]  ['E', 'E', 'E', 'S', 'E'] 6
+    Neighbor was already in explored, skipping [5, 7]  ['E', 'E', 'E', 'S', 'E', 'N'] 7 5 7
+    Neighbor never seen before: [6, 8]  ['E', 'E', 'E', 'S', 'E', 'E'] 13
+    Neighbor never seen before: [7, 7]  ['E', 'E', 'E', 'S', 'E', 'S'] 9
+    Neighbor was already in explored, skipping [6, 6]  ['E', 'E', 'E', 'S', 'E', 'W'] 7 5 7
+walkdown index: 0
+walkdown index: 2
+walkdown index: 5
+----------------------
+Current state: [7, 6]  ['E', 'E', 'E', 'S', 'S'] 6
+    Neighbor was already in explored, skipping [6, 6]  ['E', 'E', 'E', 'S', 'S', 'N'] 7 5 7
+    Neighbor was already in fringe, skipping [7, 7]  ['E', 'E', 'E', 'S', 'S', 'E'] 9 9 9
+    Neighbor never seen before: [8, 6]  ['E', 'E', 'E', 'S', 'S', 'S'] 7
+    Neighbor was already in explored, skipping [7, 5]  ['E', 'E', 'E', 'S', 'S', 'W'] 8 6 8
+walkdown index: 0
+walkdown index: 1
+walkdown index: 4
+walkdown index: 9
+----------------------
+Current state: [6, 4]  ['E', 'S'] 6
+    Neighbor was already in explored, skipping [5, 4]  ['E', 'S', 'N'] 8 2 8
+    Neighbor was already in explored, skipping [6, 5]  ['E', 'S', 'E'] 7 4 7
+    Neighbor was already in fringe, skipping [7, 4]  ['E', 'S', 'S'] 12 12 12
+    Neighbor was already in explored, skipping [6, 3]  ['E', 'S', 'W'] 9 3 9
+walkdown index: 0
+walkdown index: 1
+walkdown index: 4
+----------------------
+Current state: [8, 5]  ['E', 'E', 'S', 'S', 'S'] 7
+    Neighbor was already in explored, skipping [7, 5]  ['E', 'E', 'S', 'S', 'S', 'N'] 9 6 9
+    Neighbor was already in fringe, skipping [8, 6]  ['E', 'E', 'S', 'S', 'S', 'E'] 8 7 8
+    Neighbor never seen before: [9, 5]  ['E', 'E', 'S', 'S', 'S', 'S'] 10
+    Neighbor never seen before: [8, 4]  ['E', 'E', 'S', 'S', 'S', 'W'] 9
+walkdown index: 0
+walkdown index: 1
+walkdown index: 4
+walkdown index: 9
+----------------------
+Current state: [8, 6]  ['E', 'E', 'E', 'S', 'S', 'S'] 7
+    Neighbor was already in explored, skipping [7, 6]  ['E', 'E', 'E', 'S', 'S', 'S', 'N'] 8 6 8
+    Neighbor never seen before: [8, 7]  ['E', 'E', 'E', 'S', 'S', 'S', 'E'] 8
+    Neighbor never seen before: [9, 6]  ['E', 'E', 'E', 'S', 'S', 'S', 'S'] 8
+    Neighbor was already in explored, skipping [8, 5]  ['E', 'E', 'E', 'S', 'S', 'S', 'W'] 8 7 8
+walkdown index: 0
+walkdown index: 1
+walkdown index: 4
+----------------------
+Current state: [8, 7]  ['E', 'E', 'E', 'S', 'S', 'S', 'E'] 8
+    Neighbor was already in fringe, skipping [7, 7]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'N'] 11 9 11
+    Neighbor never seen before: [8, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E'] 9
+    Neighbor never seen before: [9, 7]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S'] 9
+    Neighbor was already in explored, skipping [8, 6]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'W'] 9 7 9
+walkdown index: 0
+----------------------
+Current state: [9, 6]  ['E', 'E', 'E', 'S', 'S', 'S', 'S'] 8
+    Neighbor was already in explored, skipping [8, 6]  ['E', 'E', 'E', 'S', 'S', 'S', 'S', 'N'] 9 7 9
+    Neighbor was already in fringe, skipping [9, 7]  ['E', 'E', 'E', 'S', 'S', 'S', 'S', 'E'] 9 9 9
+    Neighbor never seen before: [10, 6]  ['E', 'E', 'E', 'S', 'S', 'S', 'S', 'S'] 11
+    Neighbor was already in fringe, skipping [9, 5]  ['E', 'E', 'E', 'S', 'S', 'S', 'S', 'W'] 11 10 11
+walkdown index: 0
+walkdown index: 1
+walkdown index: 4
+walkdown index: 10
+----------------------
+Current state: [9, 7]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S'] 9
+    Neighbor was already in explored, skipping [8, 7]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'N'] 10 8 10
+    Neighbor never seen before: [9, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E'] 10
+    Neighbor never seen before: [10, 7]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'S'] 10
+    Neighbor was already in explored, skipping [9, 6]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'W'] 10 8 10
+walkdown index: 0
+walkdown index: 1
+walkdown index: 4
+walkdown index: 9
+----------------------
+Current state: [7, 7]  ['E', 'E', 'E', 'S', 'E', 'S'] 9
+    Neighbor was already in explored, skipping [6, 7]  ['E', 'E', 'E', 'S', 'E', 'S', 'N'] 10 6 10
+    Neighbor never seen before: [7, 8]  ['E', 'E', 'E', 'S', 'E', 'S', 'E'] 12
+    Neighbor was already in explored, skipping [8, 7]  ['E', 'E', 'E', 'S', 'E', 'S', 'S'] 10 8 10
+    Neighbor was already in explored, skipping [7, 6]  ['E', 'E', 'E', 'S', 'E', 'S', 'W'] 10 6 10
+walkdown index: 0
+walkdown index: 1
+walkdown index: 4
+walkdown index: 10
+----------------------
+Current state: [8, 4]  ['E', 'E', 'S', 'S', 'S', 'W'] 9
+    Neighbor was already in fringe, skipping [7, 4]  ['E', 'E', 'S', 'S', 'S', 'W', 'N'] 15 12 15
+    Neighbor was already in explored, skipping [8, 5]  ['E', 'E', 'S', 'S', 'S', 'W', 'E'] 10 7 10
+    Neighbor never seen before: [9, 4]  ['E', 'E', 'S', 'S', 'S', 'W', 'S'] 13
+    Neighbor never seen before: [8, 3]  ['E', 'E', 'S', 'S', 'S', 'W', 'W'] 29
+walkdown index: 0
+walkdown index: 1
+walkdown index: 4
+walkdown index: 10
+----------------------
+Current state: [8, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E'] 9
+    Neighbor was already in fringe, skipping [7, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'N'] 12 12 12
+    Neighbor never seen before: [8, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E'] 10
+    Neighbor was already in fringe, skipping [9, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'S'] 10 10 10
+    Neighbor was already in explored, skipping [8, 7]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'W'] 10 8 10
+walkdown index: 0
+walkdown index: 1
+walkdown index: 4
+----------------------
+Current state: [9, 5]  ['E', 'E', 'S', 'S', 'S', 'S'] 10
+    Neighbor was already in explored, skipping [8, 5]  ['E', 'E', 'S', 'S', 'S', 'S', 'N'] 11 7 11
+    Neighbor was already in explored, skipping [9, 6]  ['E', 'E', 'S', 'S', 'S', 'S', 'E'] 11 8 11
+    Neighbor never seen before: [10, 5]  ['E', 'E', 'S', 'S', 'S', 'S', 'S'] 11
+    Neighbor was already in fringe, skipping [9, 4]  ['E', 'E', 'S', 'S', 'S', 'S', 'W'] 14 13 14
+walkdown index: 0
+walkdown index: 2
+walkdown index: 5
+----------------------
+Current state: [9, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E'] 10
+    Neighbor was already in explored, skipping [8, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'N'] 11 9 11
+    Neighbor never seen before: [9, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E'] 11
+    Neighbor never seen before: [10, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'S'] 11
+    Neighbor was already in explored, skipping [9, 7]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'W'] 11 9 11
+walkdown index: 0
+walkdown index: 2
+walkdown index: 5
+walkdown index: 11
+----------------------
+Current state: [10, 7]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'S'] 10
+    Neighbor was already in explored, skipping [9, 7]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'S', 'N'] 11 9 11
+    Neighbor was already in fringe, skipping [10, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'S', 'E'] 11 11 11
+    Neighbor never seen before: [11, 7]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'S', 'S'] 26
+    Neighbor was already in fringe, skipping [10, 6]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'S', 'W'] 13 11 13
+walkdown index: 0
+walkdown index: 1
+walkdown index: 4
+walkdown index: 9
+----------------------
+Current state: [8, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E'] 10
+    Neighbor never seen before: [7, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'N'] 15
+    Neighbor never seen before: [8, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E'] 11
+    Neighbor was already in fringe, skipping [9, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'S'] 11 11 11
+    Neighbor was already in explored, skipping [8, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'W'] 11 9 11
+walkdown index: 0
+----------------------
+Current state: [10, 6]  ['E', 'E', 'E', 'S', 'S', 'S', 'S', 'S'] 11
+    Neighbor was already in explored, skipping [9, 6]  ['E', 'E', 'E', 'S', 'S', 'S', 'S', 'S', 'N'] 12 8 12
+    Neighbor was already in explored, skipping [10, 7]  ['E', 'E', 'E', 'S', 'S', 'S', 'S', 'S', 'E'] 12 10 12
+    Neighbor never seen before: [11, 6]  ['E', 'E', 'E', 'S', 'S', 'S', 'S', 'S', 'S'] 26
+    Neighbor was already in fringe, skipping [10, 5]  ['E', 'E', 'E', 'S', 'S', 'S', 'S', 'S', 'W'] 12 11 12
+walkdown index: 0
+walkdown index: 2
+walkdown index: 5
+walkdown index: 11
+----------------------
+Current state: [8, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E'] 11
+    Neighbor never seen before: [7, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'N'] 12
+    Neighbor never seen before: [8, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E'] 12
+    Neighbor never seen before: [9, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'S'] 12
+    Neighbor was already in explored, skipping [8, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'W'] 12 10 12
+walkdown index: 0
+walkdown index: 2
+walkdown index: 5
+walkdown index: 12
+----------------------
+Current state: [10, 5]  ['E', 'E', 'S', 'S', 'S', 'S', 'S'] 11
+    Neighbor was already in explored, skipping [9, 5]  ['E', 'E', 'S', 'S', 'S', 'S', 'S', 'N'] 14 10 14
+    Neighbor was already in explored, skipping [10, 6]  ['E', 'E', 'S', 'S', 'S', 'S', 'S', 'E'] 14 11 14
+    Neighbor never seen before: [11, 5]  ['E', 'E', 'S', 'S', 'S', 'S', 'S', 'S'] 36
+    Neighbor never seen before: [10, 4]  ['E', 'E', 'S', 'S', 'S', 'S', 'S', 'W'] 28
+walkdown index: 0
+walkdown index: 2
+walkdown index: 5
+walkdown index: 12
+----------------------
+Current state: [4, 6]  ['N', 'E', 'E', 'E'] 11
+    Neighbor was already in explored, skipping [3, 6]  ['N', 'E', 'E', 'E', 'N'] 12 5 12
+    Neighbor was already in fringe, skipping [4, 7]  ['N', 'E', 'E', 'E', 'E'] 23 17 23
+    Neighbor was already in explored, skipping [5, 6]  ['N', 'E', 'E', 'E', 'S'] 12 4 12
+    Neighbor was already in explored, skipping [4, 5]  ['N', 'E', 'E', 'E', 'W'] 12 3 12
+walkdown index: 0
+walkdown index: 2
+walkdown index: 5
+walkdown index: 11
+----------------------
+Current state: [9, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E'] 11
+    Neighbor was already in explored, skipping [8, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'N'] 12 10 12
+    Neighbor was already in fringe, skipping [9, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'E'] 12 12 12
+    Neighbor never seen before: [10, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S'] 12
+    Neighbor was already in explored, skipping [9, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'W'] 12 10 12
+walkdown index: 0
+----------------------
+Current state: [10, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'S'] 11
+    Neighbor was already in explored, skipping [9, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'S', 'N'] 12 10 12
+    Neighbor was already in fringe, skipping [10, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'S', 'E'] 12 12 12
+    Neighbor never seen before: [11, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'S', 'S'] 12
+    Neighbor was already in explored, skipping [10, 7]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'S', 'W'] 12 10 12
+walkdown index: 0
+----------------------
+Current state: [10, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S'] 12
+    Neighbor was already in explored, skipping [9, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'N'] 13 11 13
+    Neighbor never seen before: [10, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E'] 13
+    Neighbor never seen before: [11, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'S'] 13
+    Neighbor was already in explored, skipping [10, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'W'] 13 11 13
+walkdown index: 0
+walkdown index: 1
+walkdown index: 4
+walkdown index: 10
+----------------------
+Current state: [11, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'S', 'S'] 12
+    Neighbor was already in explored, skipping [10, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'S', 'S', 'N'] 13 11 13
+    Neighbor was already in fringe, skipping [11, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'S', 'S', 'E'] 13 13 13
+    Neighbor never seen before: [12, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'S', 'S', 'S'] 23
+    Neighbor was already in fringe, skipping [11, 7]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'S', 'S', 'W'] 28 26 28
+walkdown index: 0
+walkdown index: 1
+walkdown index: 4
+walkdown index: 9
+----------------------
+Current state: [7, 4]  ['E', 'E', 'S', 'S', 'W'] 12
+    Neighbor was already in explored, skipping [6, 4]  ['E', 'E', 'S', 'S', 'W', 'N'] 16 6 16
+    Neighbor was already in explored, skipping [7, 5]  ['E', 'E', 'S', 'S', 'W', 'E'] 14 6 14
+    Neighbor was already in explored, skipping [8, 4]  ['E', 'E', 'S', 'S', 'W', 'S'] 14 9 14
+    Neighbor was already in fringe, skipping [7, 3]  ['E', 'E', 'S', 'S', 'W', 'W'] 27 18 27
+walkdown index: 0
+walkdown index: 1
+----------------------
+Current state: [2, 2]  ['N', 'N', 'W', 'N'] 12
+    Neighbor never seen before: [1, 2]  ['N', 'N', 'W', 'N', 'N'] 28
+    Neighbor was already in fringe, skipping [2, 3]  ['N', 'N', 'W', 'N', 'E'] 37 27 37
+    Neighbor was already in explored, skipping [3, 2]  ['N', 'N', 'W', 'N', 'S'] 13 3 13
+    Neighbor never seen before: [2, 1]  ['N', 'N', 'W', 'N', 'W'] 27
+walkdown index: 0
+walkdown index: 2
+walkdown index: 6
+walkdown index: 13
+----------------------
+Current state: [7, 8]  ['E', 'E', 'E', 'S', 'E', 'S', 'E'] 12
+    Neighbor was already in fringe, skipping [6, 8]  ['E', 'E', 'E', 'S', 'E', 'S', 'E', 'N'] 19 13 19
+    Neighbor was already in fringe, skipping [7, 9]  ['E', 'E', 'E', 'S', 'E', 'S', 'E', 'E'] 17 15 17
+    Neighbor was already in explored, skipping [8, 8]  ['E', 'E', 'E', 'S', 'E', 'S', 'E', 'S'] 13 9 13
+    Neighbor was already in explored, skipping [7, 7]  ['E', 'E', 'E', 'S', 'E', 'S', 'E', 'W'] 15 9 15
+walkdown index: 0
+walkdown index: 2
+walkdown index: 6
+----------------------
+Current state: [7, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'N'] 12
+    Neighbor never seen before: [6, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'N', 'N'] 34
+    Neighbor never seen before: [7, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'N', 'E'] 13
+    Neighbor was already in explored, skipping [8, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'N', 'S'] 13 11 13
+    Neighbor was already in fringe, skipping [7, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'N', 'W'] 17 15 17
+walkdown index: 0
+walkdown index: 2
+walkdown index: 5
+walkdown index: 12
+----------------------
+Current state: [8, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E'] 12
+    Neighbor was already in fringe, skipping [7, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'N'] 13 13 13
+    Neighbor never seen before: [8, 12]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E'] 13
+    Neighbor never seen before: [9, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'S'] 13
+    Neighbor was already in explored, skipping [8, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'W'] 13 11 13
+walkdown index: 0
+----------------------
+Current state: [9, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'S'] 12
+    Neighbor was already in explored, skipping [8, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'S', 'N'] 13 11 13
+    Neighbor was already in fringe, skipping [9, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'S', 'E'] 13 13 13
+    Neighbor was already in fringe, skipping [10, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'S', 'S'] 13 13 13
+    Neighbor was already in explored, skipping [9, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'S', 'W'] 13 11 13
+walkdown index: 0
+----------------------
+Current state: [9, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'S'] 13
+    Neighbor was already in explored, skipping [8, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'S', 'N'] 14 12 14
+    Neighbor never seen before: [9, 12]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'S', 'E'] 14
+    Neighbor never seen before: [10, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'S', 'S'] 14
+    Neighbor was already in explored, skipping [9, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'S', 'W'] 14 12 14
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+walkdown index: 8
+----------------------
+Current state: [8, 12]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E'] 13
+    Neighbor never seen before: [7, 12]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'N'] 15
+    Neighbor never seen before: [8, 13]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'E'] 14
+    Neighbor was already in fringe, skipping [9, 12]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'S'] 14 14 14
+    Neighbor was already in explored, skipping [8, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'W'] 14 12 14
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+walkdown index: 7
+----------------------
+Current state: [10, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E'] 13
+    Neighbor was already in explored, skipping [9, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'N'] 14 12 14
+    Neighbor was already in fringe, skipping [10, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'E'] 14 14 14
+    Neighbor never seen before: [11, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'S'] 14
+    Neighbor was already in explored, skipping [10, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'W'] 14 12 14
+walkdown index: 0
+walkdown index: 1
+walkdown index: 4
+walkdown index: 9
+----------------------
+Current state: [2, 6]  ['N', 'E', 'E', 'N', 'E', 'N'] 13
+    Neighbor never seen before: [1, 6]  ['N', 'E', 'E', 'N', 'E', 'N', 'N'] 39
+    Neighbor never seen before: [2, 7]  ['N', 'E', 'E', 'N', 'E', 'N', 'E'] 35
+    Neighbor was already in explored, skipping [3, 6]  ['N', 'E', 'E', 'N', 'E', 'N', 'S'] 14 5 14
+    Neighbor was already in fringe, skipping [2, 5]  ['N', 'E', 'E', 'N', 'E', 'N', 'W'] 31 22 31
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+walkdown index: 7
+walkdown index: 15
+----------------------
+Current state: [5, 8]  ['E', 'E', 'E', 'E', 'E'] 13
+    Neighbor never seen before: [4, 8]  ['E', 'E', 'E', 'E', 'E', 'N'] 14
+    Neighbor never seen before: [5, 9]  ['E', 'E', 'E', 'E', 'E', 'E'] 27
+    Neighbor was already in fringe, skipping [6, 8]  ['E', 'E', 'E', 'E', 'E', 'S'] 20 13 20
+    Neighbor was already in explored, skipping [5, 7]  ['E', 'E', 'E', 'E', 'E', 'W'] 14 5 14
+walkdown index: 0
+walkdown index: 2
+walkdown index: 6
+walkdown index: 14
+----------------------
+Current state: [6, 8]  ['E', 'E', 'E', 'S', 'E', 'E'] 13
+    Neighbor was already in explored, skipping [5, 8]  ['E', 'E', 'E', 'S', 'E', 'E', 'N'] 21 13 21
+    Neighbor never seen before: [6, 9]  ['E', 'E', 'E', 'S', 'E', 'E', 'E'] 41
+    Neighbor was already in explored, skipping [7, 8]  ['E', 'E', 'E', 'S', 'E', 'E', 'S'] 16 12 16
+    Neighbor was already in explored, skipping [6, 7]  ['E', 'E', 'E', 'S', 'E', 'E', 'W'] 14 6 14
+walkdown index: 0
+walkdown index: 2
+walkdown index: 6
+walkdown index: 14
+----------------------
+Current state: [9, 4]  ['E', 'E', 'S', 'S', 'S', 'W', 'S'] 13
+    Neighbor was already in explored, skipping [8, 4]  ['E', 'E', 'S', 'S', 'S', 'W', 'S', 'N'] 15 9 15
+    Neighbor was already in explored, skipping [9, 5]  ['E', 'E', 'S', 'S', 'S', 'W', 'S', 'E'] 16 10 16
+    Neighbor was already in fringe, skipping [10, 4]  ['E', 'E', 'S', 'S', 'S', 'W', 'S', 'S'] 30 28 30
+    Neighbor never seen before: [9, 3]  ['E', 'E', 'S', 'S', 'S', 'W', 'S', 'W'] 24
+walkdown index: 0
+walkdown index: 2
+walkdown index: 6
+walkdown index: 14
+----------------------
+Current state: [11, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'S'] 13
+    Neighbor was already in explored, skipping [10, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'S', 'N'] 14 12 14
+    Neighbor was already in fringe, skipping [11, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'S', 'E'] 14 14 14
+    Neighbor never seen before: [12, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'S', 'S'] 14
+    Neighbor was already in explored, skipping [11, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'S', 'W'] 14 12 14
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+walkdown index: 7
+----------------------
+Current state: [7, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'N', 'E'] 13
+    Neighbor never seen before: [6, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'N', 'E', 'N'] 18
+    Neighbor was already in fringe, skipping [7, 12]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'N', 'E', 'E'] 15 15 15
+    Neighbor was already in explored, skipping [8, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'N', 'E', 'S'] 14 12 14
+    Neighbor was already in explored, skipping [7, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'N', 'E', 'W'] 14 12 14
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+walkdown index: 7
+walkdown index: 15
+----------------------
+Current state: [8, 13]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'E'] 14
+    Neighbor never seen before: [7, 13]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'N'] 15
+    Neighbor never seen before: [8, 14]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E'] 18
+    Neighbor never seen before: [9, 13]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S'] 15
+    Neighbor was already in explored, skipping [8, 12]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'W'] 15 13 15
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+walkdown index: 8
+----------------------
+Current state: [11, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'S'] 14
+    Neighbor was already in explored, skipping [10, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'S', 'N'] 15 13 15
+    Neighbor never seen before: [11, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'S', 'E'] 15
+    Neighbor never seen before: [12, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'S', 'S'] 15
+    Neighbor was already in explored, skipping [11, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'S', 'W'] 15 13 15
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+----------------------
+Current state: [4, 8]  ['E', 'E', 'E', 'E', 'E', 'N'] 14
+    Neighbor never seen before: [3, 8]  ['E', 'E', 'E', 'E', 'E', 'N', 'N'] 41
+    Neighbor never seen before: [4, 9]  ['E', 'E', 'E', 'E', 'E', 'N', 'E'] 24
+    Neighbor was already in explored, skipping [5, 8]  ['E', 'E', 'E', 'E', 'E', 'N', 'S'] 22 13 22
+    Neighbor was already in fringe, skipping [4, 7]  ['E', 'E', 'E', 'E', 'E', 'N', 'W'] 26 17 26
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+walkdown index: 7
+walkdown index: 16
+----------------------
+Current state: [12, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'S', 'S'] 14
+    Neighbor was already in explored, skipping [11, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'S', 'S', 'N'] 15 13 15
+    Neighbor was already in fringe, skipping [12, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'S', 'S', 'E'] 15 15 15
+    Neighbor never seen before: [13, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'S', 'S', 'S'] 15
+    Neighbor was already in fringe, skipping [12, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'S', 'S', 'W'] 25 23 25
+walkdown index: 0
+walkdown index: 2
+walkdown index: 5
+----------------------
+Current state: [10, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'S', 'S'] 14
+    Neighbor was already in explored, skipping [9, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'S', 'S', 'N'] 15 13 15
+    Neighbor never seen before: [10, 12]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'S', 'S', 'E'] 16
+    Neighbor was already in fringe, skipping [11, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'S', 'S', 'S'] 15 15 15
+    Neighbor was already in explored, skipping [10, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'S', 'S', 'W'] 15 13 15
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+walkdown index: 8
+walkdown index: 17
+----------------------
+Current state: [9, 12]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'S', 'E'] 14
+    Neighbor was already in explored, skipping [8, 12]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'S', 'E', 'N'] 15 13 15
+    Neighbor was already in fringe, skipping [9, 13]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'S', 'E', 'E'] 15 15 15
+    Neighbor was already in fringe, skipping [10, 12]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'S', 'E', 'S'] 16 16 16
+    Neighbor was already in explored, skipping [9, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'S', 'E', 'W'] 15 13 15
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+walkdown index: 8
+----------------------
+Current state: [12, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'S', 'S'] 15
+    Neighbor was already in explored, skipping [11, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'S', 'S', 'N'] 16 14 16
+    Neighbor never seen before: [12, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'S', 'S', 'E'] 16
+    Neighbor never seen before: [13, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'S', 'S', 'S'] 16
+    Neighbor was already in explored, skipping [12, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'S', 'S', 'W'] 16 14 16
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+walkdown index: 8
+walkdown index: 17
+----------------------
+Current state: [7, 13]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'N'] 15
+    Neighbor never seen before: [6, 13]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'N'] 16
+    Neighbor never seen before: [7, 14]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'E'] 16
+    Neighbor was already in explored, skipping [8, 13]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'S'] 16 14 16
+    Neighbor was already in fringe, skipping [7, 12]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'N', 'W'] 17 15 17
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+----------------------
+Current state: [9, 13]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S'] 15
+    Neighbor was already in explored, skipping [8, 13]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S', 'N'] 16 14 16
+    Neighbor never seen before: [9, 14]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S', 'E'] 42
+    Neighbor never seen before: [10, 13]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S', 'S'] 19
+    Neighbor was already in explored, skipping [9, 12]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'S', 'W'] 16 14 16
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+walkdown index: 8
+walkdown index: 17
+----------------------
+Current state: [11, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'S', 'E'] 15
+    Neighbor was already in explored, skipping [10, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'S', 'E', 'N'] 16 14 16
+    Neighbor never seen before: [11, 12]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'S', 'E', 'E'] 17
+    Neighbor was already in fringe, skipping [12, 11]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'S', 'E', 'S'] 16 16 16
+    Neighbor was already in explored, skipping [11, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'E', 'S', 'E', 'W'] 16 14 16
+walkdown index: 0
+walkdown index: 2
+walkdown index: 6
+walkdown index: 13
+----------------------
+Current state: [13, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'S', 'S', 'S'] 15
+    Neighbor was already in explored, skipping [12, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'S', 'S', 'S', 'N'] 16 14 16
+    Neighbor was already in fringe, skipping [13, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'S', 'S', 'S', 'E'] 16 16 16
+    Neighbor never seen before: [14, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'S', 'S', 'S', 'S'] 16
+    Neighbor never seen before: [13, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'S', 'E', 'E', 'S', 'S', 'S', 'S', 'W'] 18
+walkdown index: 0
+walkdown index: 2
+walkdown index: 5
+----------------------
+Current state: [7, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'N'] 15
+    Neighbor was already in fringe, skipping [6, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'N', 'N'] 43 41 43
+    Neighbor was already in explored, skipping [7, 10]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'N', 'E'] 16 12 16
+    Neighbor was already in explored, skipping [8, 9]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'N', 'S'] 16 10 16
+    Neighbor was already in explored, skipping [7, 8]  ['E', 'E', 'E', 'S', 'S', 'S', 'E', 'E', 'E', 'N', 'W'] 18 12 18
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+walkdown index: 8
+walkdown index: 18
+----------------------
+Current state: [5, 3]  [] (0 + 11) = 11
+    Neighbor never seen before: [4, 3]  ['N'] (1 + 12) = 13
+    Neighbor never seen before: [5, 4]  ['E'] (2 + 10) = 12
+    Neighbor never seen before: [6, 3]  ['S'] (3 + 10) = 13
+    Neighbor never seen before: [5, 2]  ['W'] (17 + 12) = 29
+walkdown index: 0
+----------------------
+Current state: [5, 4]  ['E'] (2 + 10) = 12
+    Neighbor never seen before: [4, 4]  ['E', 'N'] (3 + 11) = 14
+    Neighbor never seen before: [5, 5]  ['E', 'E'] (3 + 9) = 12
+    Neighbor never seen before: [6, 4]  ['E', 'S'] (6 + 9) = 15
+    Neighbor was already in explored, skipping [5, 3]  ['E', 'W'] (3 + 11) = 14 11 14
+walkdown index: 0
+walkdown index: 1
+----------------------
+Current state: [5, 5]  ['E', 'E'] (3 + 9) = 12
+    Neighbor never seen before: [4, 5]  ['E', 'E', 'N'] (4 + 10) = 14
+    Neighbor never seen before: [5, 6]  ['E', 'E', 'E'] (4 + 8) = 12
+    Neighbor never seen before: [6, 5]  ['E', 'E', 'S'] (4 + 8) = 12
+    Neighbor was already in explored, skipping [5, 4]  ['E', 'E', 'W'] (5 + 10) = 15 12 15
+walkdown index: 0
+walkdown index: 1
+----------------------
+Current state: [5, 6]  ['E', 'E', 'E'] (4 + 8) = 12
+    Neighbor never seen before: [4, 6]  ['E', 'E', 'E', 'N'] (12 + 9) = 21
+    Neighbor never seen before: [5, 7]  ['E', 'E', 'E', 'E'] (5 + 7) = 12
+    Neighbor never seen before: [6, 6]  ['E', 'E', 'E', 'S'] (5 + 7) = 12
+    Neighbor was already in explored, skipping [5, 5]  ['E', 'E', 'E', 'W'] (5 + 9) = 14 12 14
+walkdown index: 0
+walkdown index: 1
+----------------------
+Current state: [6, 5]  ['E', 'E', 'S'] (4 + 8) = 12
+    Neighbor was already in explored, skipping [5, 5]  ['E', 'E', 'S', 'N'] (5 + 9) = 14 12 14
+    Neighbor never seen before: [6, 6]  ['E', 'E', 'S', 'E'] (5 + 7) = 12
+    Neighbor never seen before: [7, 5]  ['E', 'E', 'S', 'S'] (6 + 7) = 13
+    Neighbor never seen before: [6, 4]  ['E', 'E', 'S', 'W'] (8 + 9) = 17
+walkdown index: 0
+walkdown index: 1
+walkdown index: 4
+----------------------
+Current state: [5, 7]  ['E', 'E', 'E', 'E'] (5 + 7) = 12
+    Neighbor never seen before: [4, 7]  ['E', 'E', 'E', 'E', 'N'] (17 + 8) = 25
+    Neighbor never seen before: [5, 8]  ['E', 'E', 'E', 'E', 'E'] (13 + 6) = 19
+    Neighbor never seen before: [6, 7]  ['E', 'E', 'E', 'E', 'S'] (6 + 6) = 12
+    Neighbor was already in explored, skipping [5, 6]  ['E', 'E', 'E', 'E', 'W'] (6 + 8) = 14 12 14
+walkdown index: 0
+walkdown index: 1
+----------------------
+Current state: [6, 6]  ['E', 'E', 'E', 'S'] (5 + 7) = 12
+    Neighbor was already in explored, skipping [5, 6]  ['E', 'E', 'E', 'S', 'N'] (6 + 8) = 14 12 14
+    Neighbor never seen before: [6, 7]  ['E', 'E', 'E', 'S', 'E'] (6 + 6) = 12
+    Neighbor never seen before: [7, 6]  ['E', 'E', 'E', 'S', 'S'] (6 + 6) = 12
+    Neighbor was already in explored, skipping [6, 5]  ['E', 'E', 'E', 'S', 'W'] (6 + 8) = 14 12 14
+walkdown index: 0
+----------------------
+Current state: [6, 6]  ['E', 'E', 'S', 'E'] (5 + 7) = 12
+    Neighbor was already in explored, skipping [5, 6]  ['E', 'E', 'S', 'E', 'N'] (6 + 8) = 14 12 14
+    Neighbor never seen before: [6, 7]  ['E', 'E', 'S', 'E', 'E'] (6 + 6) = 12
+    Neighbor never seen before: [7, 6]  ['E', 'E', 'S', 'E', 'S'] (6 + 6) = 12
+    Neighbor was already in explored, skipping [6, 5]  ['E', 'E', 'S', 'E', 'W'] (6 + 8) = 14 12 14
+walkdown index: 0
+walkdown index: 1
+walkdown index: 3
+----------------------
+Current state: [7, 6]  ['E', 'E', 'E', 'S', 'S'] (6 + 6) = 12
+    Neighbor was already in explored, skipping [6, 6]  ['E', 'E', 'E', 'S', 'S', 'N'] (7 + 7) = 14 12 14
+    Neighbor never seen before: [7, 7]  ['E', 'E', 'E', 'S', 'S', 'E'] (9 + 5) = 14
+    Neighbor never seen before: [8, 6]  ['E', 'E', 'E', 'S', 'S', 'S'] (7 + 7) = 14
+    Neighbor never seen before: [7, 5]  ['E', 'E', 'E', 'S', 'S', 'W'] (8 + 7) = 15

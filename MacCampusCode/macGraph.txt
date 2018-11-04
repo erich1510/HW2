@@ -1,0 +1,491 @@
+######################################
+# Graph of all of campus, with 95 nodes, so far!
+#
+# Contains a graph of 95 points from the main part of the
+# Macalester campus.  The positions given are the latitude and
+# longitude values for each location, just the seconds part.  We can
+# assume, given the small scale of things, that these are fixed, flat
+# offsets from some (0,0), which would be southeast of campus,
+# on the east side of Snelling across from Berkeley St.  This is
+# where 44 degrees 56 minutes and 0 seconds North by 93 degrees
+# 10 minutes and 0 seconds West is located."""
+
+Number of Nodes: 95
+
+Nodes:
+0   (10.76, 11.85)   Olin-Rice west parking
+1   (11.29, 11.74)   Olin-Rice near loading dock
+2   (11.27, 11.27)   Olin-Rice west door
+3   (11.66, 11.76)   Olin-Rice parking/sidewalk junction
+4   (10.97, 8.61)    Olin-Rice south stairs west
+5   (10.73, 8.63)    Olin-Rice south path west
+6   (10.97, 7.87)    Olin-Rice south stairs east
+7   (10.74, 7.88)    Olin-Rice south path east
+8   (10.76, 5.47)    Olin-Rice southeast corner
+9   (11.84, 5.49)    Olin-Rice east path
+10   (12.13, 5.49)    Base of steps to Leonard Center
+11   (12.62, 5.52)    Olin-Rice northeast corner
+12   (13.27, 11.26)    Olin-Rice northwest corner
+13   (11.63, 12.49)    Olin-Rice west parking entrance
+14   (11.63, 11.24)   Olin-Rice west parking path
+15   (11.65, 13.19)   Path to west 2 parking
+16   (14.88, 13.88)   Fine Arts west entrance
+17   (16.28, 13.97)   Facilities/Music west doors
+18   (13.33, 9.24)    Neill Hall south doors
+19   (13.37, 8.21)    Neill Olin-Rice path junction
+20   (13.37, 7.89)    Shaw Field path junction
+21   (12.82, 7.83)    Shaw Field Olin-Rice path junction
+22   (12.78, 8.25)    Olin-Rice rock garden junction
+23   (12.65, 8.21)    Olin-Rice north doors
+24   (12.82, 9.07)    Olin-Rice rock garden
+25   (12.03, 3.97)    Leonard Center south door
+26   (12.03, 2.29)    Leonard Center lot northeast corner
+27   (10.82, 1.86)    Leonard Center southeast corner
+28   (15.45, 1.96)    Leonard Center east path
+29   (15.44, 2.23)    Leonard Center east doors
+30   (17.19, 1.86)    Leonard Center northeast corner
+31   (15.13, 5.80)    Leonard Center west entrance south
+32   (15.47, 6.32)    Leonard Center west entrance Y
+33   (15.47, 7.24)    Leonard Center Shaw Field triangle
+34   (15.42, 5.76)    Leonard Center west entrance
+35   (15.80, 5.66)    Leonard Center west entrance north
+36   (17.22, 4.01)    Leonard Center Kirk Hall junction
+37   (17.41, 4.88)    Leonard Center Library junction
+38   (14.99, 8.01)    Shaw Field Fine Arts junction
+39   (15.00, 9.23)    Neill Hall north doors
+40   (14.96, 10.11)    Fine Arts east doors
+41   (15.82, 7.91)    Shaw Field Art triangle
+42   (16.72, 8.14)    Art northeast corner
+43   (16.98, 8.14)    Art Marvin Plaza path junction
+44   (17.01, 9.04)    Art north path
+45   (17.01, 11.19)    Art Fine Arts junction
+46   (15.15, 11.14)    Fine Arts north doors
+47   (17.01, 13.91)    Music northwest corner
+48   (17.42, 6.44)    Leonard Center Marvin Plaza junction
+49   (17.83, 6.40)    Marvin Plaza southeast
+50   (17.80, 7.03)    Marvin Plaza southwest
+51   (18.16, 6.52)    Marvin center south of tree
+52   (18.39, 6.25)    Marvin center east of tree
+53   (18.53, 6.46)    Marvin Plaza north
+54   (18.27, 7.15)    Marvin Plaza northwest
+55   (18.28, 8.34)    Old Main southwest junction
+56   (18.78, 8.34)    Old Main west doors
+57   (19.42, 8.36)    Carnegie Old Main junction
+58   (19.45, 7.17)    Old Main north doors
+59   (19.45, 6.27)    Old Main Library north junction
+60   (18.77, 6.07)    Old Main Library link
+61   (20.01, 4.32)    Library northeast junction
+62   (20.00, 4.01)    Kirk Hall northwest corner
+63   (20.24, 4.37)    Kirk Hall Campus Center junction
+64   (18.63, 3.96)    Kirk Hall west entrance
+65   (18.62, 2.99)    Kirk Hall center courtyard
+66   (20.14, 3.47)    Kirk Hall north junction
+67   (20.11, 1.87)    Kirk Hall northeast corner
+68   (19.41, 8.54)    Carnegie east doors
+69   (18.30, 10.10)    Carnegie southwest corner
+70   (19.42, 10.03)    Carnegie west doors
+71   (20.25, 10.01)    Carnegie northwest junction
+72   (20.04, 8.55)    Carnegie northeast junction
+73   (20.73, 8.49)    Weyerhaeuser southeast corner
+74   (20.72, 9.05)    Weyerhaeuser south doors
+75   (21.14, 8.41)    Bell tower junction
+76   (21.99, 8.53)    Weyerhaeuser east doors
+77   (20.73, 10.04)    Carnegie Weyerhaeuser southwest junction
+78   (22.01, 10.05)    Weyerhaeuser west doors
+79   (23.87, 9.95)    Macalester and Grand southeast corner
+80   (23.95, 8.47)    Grand Weyerhaeuser east junction
+81   (22.89, 8.51)    Chapel Weyerhaeuser junction
+82   (21.99, 7.15)    Chapel flagpole junction
+83   (23.92, 6.21)    Grand Chapel northeast junction
+84   (23.93, 4.26)    Grand Campus Center northwest junction
+85   (22.99, 4.28)    Campus Center northwest corner
+86   (23.93, 2.66)    Grand bus stop
+87   (23.92, 1.86)    Grand and Snelling
+88   (22.71, 4.30)    Bateman Plaza north
+89   (22.49, 4.70)    Bateman Chapel junction
+90   (22.00, 4.89)    Bateman Weyerhaeuser junction
+91   (21.38, 4.54)    Bateman Library junction
+92   (21.28, 4.29)    Bateman south
+93   (20.78, 4.31)    Campus Center southwest junction
+94   (21.99, 4.25)    Campus Center west doors
+
+Markers:
+
+Edges:
+# -----------------------
+# Southwest Olin-Rice: 0-3
+
+# 0: 5, 13
+0 5
+0 13
+
+# 1: 2, 3
+1 2
+1 3
+
+# 2: 1, 14
+2 14
+
+# 3: 1, 13, 14
+3 13
+3 14
+
+# -----------------------
+# South side:  4-8
+
+# 4: 5
+4 5
+
+# 5: 0, 4, 7
+5 7
+
+# 6: 7
+6 7
+
+# 7: 5, 6, 8
+7 8
+
+# 8: 7, 9,
+8 9
+
+
+# -----------------------
+# East side:  9-11
+
+# 9: 8, 10
+9 10
+
+# 10: 9, 11, 25
+10 11
+10 25
+
+# 11: 10, 21, 31
+11 21
+11 31
+
+# -----------------------
+# Fine Arts/Janet Wallace:  12-17
+
+
+# 12: 14, 18
+12 14
+12 18
+
+# 13: 0, 3, 15
+13 15
+
+# 14: 2, 3, 12
+
+
+# 15: 13, 16
+15 16
+
+# 16: 15, 17
+16 17
+
+# 17: 16, 47
+17 47
+
+# -----------------------
+# North side:  18-22
+
+# 18: 12, 19
+18 19
+
+
+# 19: 18, 20, 22
+19 20
+19 22
+
+# 20: 19, 21, 38
+20 21
+20 38
+
+# 21: 11, 20, 22
+21 22
+
+# 22: 19, 21, 23, 24
+22 23
+22 24
+
+# 23:  22
+
+# 24: 22
+
+# -----------------------
+# Leonard Center nodes: 25-37
+
+# 25: 10, 26
+25 26
+
+# 26: 25, 27
+26 27
+
+
+# 27: 26, 28
+27 28
+
+# 28: 27, 29, 30
+28 29
+28 30
+
+# 29: 28
+
+# 30: 28, 36, 67
+30 36
+30 67
+
+# 31: 11, 32, 34
+31 32
+31 34
+
+# 32: 31, 33, 35
+32 33
+32 35
+
+# 33: 32, 38, 41
+33 38
+33 41
+
+# 34: 31, 35
+34 35
+
+# 35: 32, 34, 37, 48
+35 37
+35 48
+
+# 36: 30, 37, 64
+36 37
+36 64
+
+
+# 37: 36, 48
+37 48
+
+
+# -----------------------
+# Fine arts nodes: 38-48
+
+# 38: 20, 33, 39, 41
+38 39
+38 41
+
+# 39: 38, 40
+39 40
+
+# 40: 39
+
+# 41: 33, 38, 42, 48
+41 42
+41 48
+
+# 42: 41, 43, 44
+42 43
+42 44
+
+# 43: 42, 50, 55
+43 50
+43 55
+
+# 44: 42, 45
+44 45
+
+
+# 45: 44, 46, 47
+45 46
+45 47
+
+# 46: 45
+
+# 47: 17, 45
+
+
+# -----------------------
+# North Shaw Field: 48-54
+
+# 48: 35, 37, 41, 49
+48 49
+
+
+# 49: 48, 50, 54
+49 50
+49 54
+
+# 50: 43, 49, 54, 51
+50 54
+50 51
+
+
+# 51: 49, 50, 52, 54
+51 52
+51 54
+
+# 52: 51, 53
+52 53
+
+
+# 53: 52, 54, 60
+53 54
+53 60
+
+# 54: 51, 53, 55
+54 55
+
+
+# -----------------------
+# Old Main/Library: 55-60
+
+
+# 55: 43, 54, 56, 69
+55 56
+55 69
+
+# 56: 55, 57, 69
+56 57
+56 69
+
+# 57: 56, 58, 68, 72
+57 58
+57 68
+57 72
+
+# 58: 57, 59, 75
+58 59
+58 75
+
+# 59: 58, 60, 61, 91
+59 60
+59 61
+59 91
+
+# 60: 53, 59
+
+# -----------------------
+# Kirk area:  61-67
+
+# 61: 59, 62, 93
+61 62
+61 93
+
+# 62: 61, 63, 64, 66
+62 63
+62 64
+62 66
+
+# 63: 62, 66, 93
+63 66
+63 93
+
+# 64: 36, 62, 65
+64 65
+
+# 65: 64
+
+# 66: 62, 63, 67
+66 67
+
+# 67: 30, 66, 87
+67 87
+
+
+# -----------------------
+# Carnegie:  68-74
+
+# 68: 57
+
+# 69: 55, 56, 70
+69 70
+
+# 70: 69, 71
+70 71
+
+# 71: 70, 72, 77
+71 72
+71 77
+
+# 72: 57, 71, 73, 74
+72 73
+72 74
+
+# 73: 72, 74, 75
+73 74
+73 75
+
+# 74: 72, 73, 77
+74 77
+
+# -----------------------
+# Weyerhaeuser: 75-81
+
+# 75: 58, 73, 76
+75 76
+
+# 76: 75, 81, 82
+76 81
+76 82
+
+# 77: 71, 74, 78
+77 78
+
+# 78: 77, 79
+78 79
+
+# 79: 78, 80, 81
+79 80
+79 81
+
+# 80: 79, 81, 83
+80 81
+80 83
+
+# 81: 76, 79, 80
+
+# -----------------------
+# Campus Center:  82-94
+
+# 82: 76, 90
+82 90
+
+# 83: 80, 84, 89
+83 84
+83 89
+
+# 84: 83, 85, 86
+84 85
+84 86
+
+# 85: 84, 86, 88
+85 86
+85 88
+
+# 86: 84, 85, 87
+86 87
+
+# 87: 67, 86
+
+
+# 88: 85, 89, 94
+88 89
+88 94
+
+# 89: 83, 88, 90, 94
+89 90
+89 94
+
+# 90: 82, 89, 91, 94
+90 91
+90 94
+
+# 91: 59, 90, 92, 94
+91 92
+91 94
+
+# 92: 91, 93, 94
+92 93
+92 94
+
+# 93: 61, 63, 92
+
+
+# 94: 88, 89, 90, 91, 92
+
